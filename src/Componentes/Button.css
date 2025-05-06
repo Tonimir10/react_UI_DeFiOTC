@@ -1,0 +1,20 @@
+.custom-button {
+    font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 8px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+   transform: skewX(-15deg);
+  }
+  
+  .custom-button.primary {
+    background-color: #b0e922;
+    color: black;
+  }
+  
+  .custom-button.secondary {
+    background-color: transparent;
+    border: 2px solid #7cff6b;
+  }
+  
