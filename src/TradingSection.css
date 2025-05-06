@@ -1,0 +1,28 @@
+
+    .container {
+        background-image: url('./assets/bg-tradingCard.png');
+        background-size: cover;
+        background-position: center;
+        margin-left: 50px;   
+        margin-right: 50px;  
+        padding: 20px;
+        display: flex; 
+        width: 100%;  
+        box-sizing: border-box;  
+      }
+      
+      .text {
+        color: white;
+        margin-bottom: 20px;  
+        width: 500px;
+      }
+      
+      .card-container {
+        display: flex;  
+        justify-content: flex-end; 
+        width: 500px; 
+        margin-bottom: 40px;
+        margin-left: auto;  
+        
+      }
+      
