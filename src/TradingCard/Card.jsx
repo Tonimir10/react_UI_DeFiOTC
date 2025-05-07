@@ -24,7 +24,7 @@ function TradingCard() {
             <p className="fw-bold ">PEPE: 20,000,000</p>
             <p className="fw-bold text-success">VALUE: $22,500</p>
           </div>
-          <p className="right-items-card-button">ACCEPTED</p>
+          <p className="boton right-items-card-button">ACCEPTED</p>
         </div>
       </div>
     </>
