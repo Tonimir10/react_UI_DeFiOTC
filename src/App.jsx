@@ -3,6 +3,7 @@ import './App.css';
 import TradingDiv from './TradingSection.jsx';
 import Roadmap from './Roadmap.jsx';
 import CardSection from './CardSection.jsx';
+import PromoSection from './ClosingBanner.jsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <TradingDiv />
         <CardSection />
         <Roadmap />
+        <PromoSection />
       </div>
     </>
   );

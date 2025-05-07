@@ -1,20 +1,52 @@
+.container {
+  background-image: url('./assets/bg-tradingCard2.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  display: flex; 
+  align-items: center;
+  min-width: 100%;  
+  box-sizing: border-box;  
+}
 
-    .container {
-        background-image: url('./assets/bg-tradingCard.png');
-        background-size: cover;
-        background-position: center;
-        margin: 0;
-        padding: 20px;
-        display: flex; 
-        justify-content: space-around;
-        align-items: center;
-        min-width: 100%;  
-        box-sizing: border-box;  
-      }
-      
-      .text {
-        color: white;
-        margin-bottom: 20px;  
-        width: 500px;
-      }
-      
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.highlight-text {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  max-width: 900px;
+  margin-left: 50px;
+}
+
+.tradingcard {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 200px;
+}
+
+.scoreboard div {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.scoreboard {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
