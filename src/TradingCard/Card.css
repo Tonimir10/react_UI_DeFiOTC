@@ -1,39 +1,22 @@
-.list-item-equal-height {
-    height: 80px;
-  }
-  
-  .list-item-equal-measures {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    background-color: #1b1b19 !important;
-    color: white !important;
-  }
-  
-  .card-green-border {
-    border: 5px solid #00ff00;
-  }
-  
-  .right-items-card {
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-weight: 600;
-    color: white;
-  }
-  
-  .right-items-card-button {
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-weight: 600;
-    color: #1b1b19;
-    background-color: #28a745;
-    padding: 8px 16px;
-    border-radius: 999px;
-    font-size: 0.9rem;
-    white-space: nowrap;
-  }
-  
+.trading-card-container {
+  background-color: #333 !important;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid #aeea22;
+  border-radius: 10px;
+}
+
+.list-group {
+  display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3rem;
+      flex-direction: row;
+      border-radius: none !important;
+      min-height: 5%;
+      padding: 0.5rem;
+}
+
+.text-success {
+  color: #aeea22;
+}

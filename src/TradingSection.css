@@ -3,11 +3,12 @@
         background-image: url('./assets/bg-tradingCard.png');
         background-size: cover;
         background-position: center;
-        margin-left: 50px;   
-        margin-right: 50px;  
+        margin: 0;
         padding: 20px;
         display: flex; 
-        width: 100%;  
+        justify-content: space-around;
+        align-items: center;
+        min-width: 100%;  
         box-sizing: border-box;  
       }
       
@@ -15,14 +16,5 @@
         color: white;
         margin-bottom: 20px;  
         width: 500px;
-      }
-      
-      .card-container {
-        display: flex;  
-        justify-content: flex-end; 
-        width: 500px; 
-        margin-bottom: 40px;
-        margin-left: auto;  
-        
       }
       
