@@ -1,5 +1,9 @@
 .roadmap-container {
     text-align: center;
+    background-color: #2a2f36;
+    padding: 3rem;
+    width:100%;
+    
   }
   
   h2 {

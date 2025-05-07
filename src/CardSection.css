@@ -1,7 +1,5 @@
 body{
-	background-image: url('https://us.123rf.com/450wm/pokpak/pokpak1707/pokpak170700156/81551410-textura-de-fondo-tecnolog%C3%ADa-de-pantalla-led-que-muestran-la-pantalla-de-colores.jpg?ver=6');
-   background-repeat: no-repeat;
-	 background-size: cover;
+	
 		
 }
 /*BACKGROUND IMAGEN DE PRUEBA*/
@@ -9,18 +7,19 @@ body{
 .card-container {
   display: flex;
   flex-direction: row;    
-  justify-content: center;  
+  justify-content: space-around;;  
   align-items: flex-start;
   gap: 20px;                 
   padding: 40px; 
-  
+  width: 100%;
   flex-wrap: nowrap;        
   overflow-x: auto;
-  
+  background: #333;
+   margin-bottom: 0;
 }
 
 .card {
-  
+
   border-radius: 20px;
   padding: 20px;
   width: 300px;
@@ -31,6 +30,7 @@ body{
 	height: 450px;
 	opacity: 0,5;
 	border: 1px solid #868a87;
+  background: transparent;;
 }
 
 .network {
