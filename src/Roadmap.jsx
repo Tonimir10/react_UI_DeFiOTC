@@ -10,36 +10,16 @@ function Roadmap (){
   <div className="roadmap">
     <div className="column left">
       <RoadmapComponent txt='Concept'/>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Early Access</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Marketing</span>
-      </div>
+      <RoadmapComponent txt='Early Access'/>
+      <RoadmapComponent txt='Marketing'/>
     </div>
 
     <div className="center-node">OTCX</div>
 
     <div className="column right">
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Contact</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Branding</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Public Launch</span>
-      </div>
+    <RoadmapComponent txt='Contact'/>
+    <RoadmapComponent txt='Branding'/>
+    <RoadmapComponent txt='Public Launch'/>
     </div>
   </div>
 </div>
