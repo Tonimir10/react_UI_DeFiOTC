@@ -3,14 +3,17 @@
     background-color: #2a2f36;
     padding: 3rem;
     width:100%;
-    
+    background-image: url('https://sdmntprukwest.oaiusercontent.com/files/00000000-7d3c-6243-bdf5-30ed6cead40c/raw?se=2025-05-08T09%3A48%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=eb780365-537d-4279-a878-cae64e33aa9c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-08T00%3A33%3A11Z&ske=2025-05-09T00%3A33%3A11Z&sks=b&skv=2024-08-04&sig=3jp7tLxyaEMLP2XktC24P/Z%2Bf8QzMQdL4A92jGP7ySg%3D');
   }
   
-  h2 {
-    font-size: 32px;
+  .roadmap-container h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
     color: white;
-    margin-bottom: 60px;
+    margin-left: 55px;
   }
+
   
   .roadmap {
     display: flex;
