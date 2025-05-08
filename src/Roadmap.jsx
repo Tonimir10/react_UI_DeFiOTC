@@ -1,5 +1,6 @@
 import './Roadmap.css'
-
+import './RoadmapComponent'
+import RoadmapComponent from './RoadmapComponent';
 function Roadmap (){
 
   return(
@@ -8,41 +9,17 @@ function Roadmap (){
   <h2>Roadmap</h2>
   <div className="roadmap">
     <div className="column left">
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Concept</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Early Access</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Marketing</span>
-      </div>
+      <RoadmapComponent txt='Concept'/>
+      <RoadmapComponent txt='Early Access'/>
+      <RoadmapComponent txt='Marketing'/>
     </div>
 
     <div className="center-node">OTCX</div>
 
     <div className="column right">
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Contact</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Branding</span>
-      </div>
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Public Launch</span>
-      </div>
+    <RoadmapComponent txt='Contact'/>
+    <RoadmapComponent txt='Branding'/>
+    <RoadmapComponent txt='Public Launch'/>
     </div>
   </div>
 </div>
