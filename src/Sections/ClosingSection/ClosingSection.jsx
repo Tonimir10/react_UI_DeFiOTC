@@ -1,6 +1,6 @@
 import './ClosingSection.css';
 import Button from '../../Componentes/Button/Button.jsx';
-
+import { alert4 } from '../../Componentes/Alert/Alert.jsx';
 function ClosingSection() {
   return (
     <>
@@ -17,7 +17,7 @@ function ClosingSection() {
               Be the first <br />
               to experience next-gen <br />
               <div className="closing-section__cta">
-                <Button text="Request Early Access" onClick={() => {}} variant="closing-btn" />
+                <Button text="Request Early Access" onClick={alert4} variant="closing-btn" />
                 <span>OTC trading.</span>
               </div>
             </h1>

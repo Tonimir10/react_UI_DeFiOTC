@@ -3,8 +3,10 @@ import React from 'react';
 import './HeroSection.css';
 import Button from '../../Componentes/Button/Button.jsx';
 import { FaBars } from 'react-icons/fa';
+import { alert1, alert2, alert3 } from '../../Componentes/Alert/Alert.jsx';
 
 const HeroSection = () => {
+  
   return (
     <>
       <section className="hero">
@@ -12,7 +14,7 @@ const HeroSection = () => {
           <div className="logo">OTCX</div>
           <div className="d-flex gap-2 justify-content-center align-items-center">
             <FaBars />
-            <Button text="Request Early Access" onClick={() => {}} variant="primary" />
+            <Button text="Request Early Access" onClick={alert2} variant="primary" />
           </div>
         </nav>
 
@@ -24,8 +26,8 @@ const HeroSection = () => {
           <p className="hero-subtitle">Trade tokens off-market Without price impact or stippage</p>
           <div className="mt-4"></div>
           <div className="hero-buttons d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
-            <Button text="Request Early Access" onClick={() => {}} variant="primary" />
-            <Button text="Learn More" onClick={() => {}} variant="secondary" />
+            <Button text="Request Early Access" onClick={alert3} variant="primary" />
+            <Button text="Learn More" onClick={alert1} variant="secondary" />
           </div>
         </div>
       </section>
