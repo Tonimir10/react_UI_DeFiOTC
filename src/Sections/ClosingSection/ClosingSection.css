@@ -14,8 +14,15 @@
   
   .overlay {
     padding: 20px;
-    max-width: 800px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .closing-section__cta-container{
+    padding: 0 0rem 3rem 5rem;
+    width: 60%;
   }
   
   .closing-section__cta{
@@ -26,9 +33,17 @@
     gap: 2rem;
   }
 
-  .closing-section__hero-text{
-    font-size: 1.5rem;;
+  .closing-section__hero-text-container {
+    font-size: 1.5rem;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    margin-bottom: 1rem;
     justify-self: end;
-  }
+    width: 35%;
+    align-self: end;
+}
+
+.closing-btn{
+  background-color: #b0e922;
+  color: black;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
