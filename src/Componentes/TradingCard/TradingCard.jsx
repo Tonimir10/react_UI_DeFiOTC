@@ -1,4 +1,4 @@
-import './Card.css';
+import './TradingCard.css';
 
 function TradingCard() {
   return (
@@ -24,7 +24,7 @@ function TradingCard() {
             <p className="fw-bold ">PEPE: 20,000,000</p>
             <p className="fw-bold text-success">VALUE: $22,500</p>
           </div>
-          <p className="boton right-items-card-button">ACCEPTED</p>
+          <p className="right-items-card-button boton">ACCEPTED</p>
         </div>
       </div>
     </>

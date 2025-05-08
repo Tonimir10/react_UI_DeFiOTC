@@ -1,0 +1,29 @@
+.trading-card-container {
+  background-color: #333 !important;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid #aeea22;
+  border-radius: 10px;
+}
+
+.list-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: row;
+  border-radius: none !important;
+  min-height: 5%;
+  padding: 0.5rem;
+}
+
+.text-success {
+  color: #aeea22 !important;
+}
+.boton{
+  background-color: #aeea22;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius:  50px;
+}
