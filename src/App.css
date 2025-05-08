@@ -14,5 +14,5 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  background-color: #272525f6;
+  background-image: url(./assets/backgroundCardRoad.png);
 }

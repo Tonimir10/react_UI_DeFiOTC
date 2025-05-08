@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   box-sizing: border-box;  
+  border-radius: 25px;;
 }
 
 .left-side {

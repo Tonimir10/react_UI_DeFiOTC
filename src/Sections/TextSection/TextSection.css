@@ -1,24 +1,23 @@
-.title-section{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    background-color: #161616;
-    height: 40vh;
-    width: 100%;
-    
-    
+.title-section{display: flex
+    ;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        background: transparent;
+        height: 40vh;
+        width: 100%;
+        align-items: center;
+        gap: 3rem;
 }
 
 
 .title-section h1{
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-top: 50px;
-left: 650px;
-max-width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 25%;
 }
 
 .title-section p{
@@ -26,7 +25,5 @@ max-width: 510px;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 80px;
-    left: 450px;
-    max-width: 910px;
+    max-width: 35%;
 }
