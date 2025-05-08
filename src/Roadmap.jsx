@@ -1,5 +1,6 @@
 import './Roadmap.css'
-
+import './RoadmapComponent'
+import RoadmapComponent from './RoadmapComponent';
 function Roadmap (){
 
   return(
@@ -8,11 +9,7 @@ function Roadmap (){
   <h2>Roadmap</h2>
   <div className="roadmap">
     <div className="column left">
-      <div className="item">
-        <span className="icon"></span>
-        <span className="point"></span>
-        <span className="label">Concept</span>
-      </div>
+      <RoadmapComponent txt='Concept'/>
       <div className="item">
         <span className="icon"></span>
         <span className="point"></span>
