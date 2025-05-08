@@ -6,16 +6,18 @@ function ClosingSection() {
     <>
       <section className="closing-section__hero">
         <div className="overlay">
-          <p className="closing-section__hero-text">
-            Trade smarter with XOTC — a secure platform offering deep liquidity and real-time
-            insights for seamless OTC trading.
-          </p>
-          <div className="text-container">
-            <h1>
+          <div className="closing-section__hero-text-container">
+            <p className="closing-section__hero-text">
+              Trade smarter with XOTC — a secure platform offering deep liquidity and real-time
+              insights for seamless OTC trading.
+            </p>
+          </div>
+          <div className="closing-section__cta-container">
+            <h1 style={{ fontSize: '4rem' }}>
               Be the first <br />
               to experience next-gen <br />
               <div className="closing-section__cta">
-                <Button text="Request Early Access" onClick={() => {}} variant="primary" />
+                <Button text="Request Early Access" onClick={() => {}} variant="closing-btn" />
                 <span>OTC trading.</span>
               </div>
             </h1>

@@ -4,7 +4,7 @@ import TradingCard from '../../Componentes/TradingCard/TradingCard.jsx';
 function TradingSection() {
   return (
     <>
-      <div className="container">
+      <div className="trading-section__container">
         <div className="left-side">
           <div className="highlight-text">
             Take part in public, private or crowdfill deals. Negotiate private one-to-one deals with
