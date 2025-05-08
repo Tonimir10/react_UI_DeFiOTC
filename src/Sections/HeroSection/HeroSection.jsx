@@ -1,7 +1,7 @@
 // src/components/Hero.js
 import React from 'react';
 import './HeroSection.css';
-import Button from './Componentes/Button.jsx';
+import Button from '../../Componentes/Button/Button.jsx';
 import { FaBars } from 'react-icons/fa';
 
 const HeroSection = () => {

@@ -5,7 +5,7 @@
     height: 50vh;
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('./assets/bg-hero.png');
+    url('../../assets/bg-hero.png');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+;
 }
 
 .logo{
