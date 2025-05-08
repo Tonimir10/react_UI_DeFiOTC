@@ -8,8 +8,10 @@
   width: 100%;
   flex-wrap: nowrap;        
   overflow-x: auto;
+
   background: transparent;
   margin-bottom: 0;
+
 }
 
 .card {
@@ -74,7 +76,7 @@
     height: 5px;
     background-color: white;
     border-radius: 50%;
-    left: 9px;
+    left: 8px;
     position: relative;
     top: -8px;
 }
@@ -86,7 +88,7 @@
     border: 1px solid white;
     border-radius: 50%;
     position: relative;
-    left: 4px;
+    left: 3px;
     top: 3px;
 }
 .top-left { top: -70px; left: 10%; }
