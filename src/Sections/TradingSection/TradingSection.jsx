@@ -1,6 +1,7 @@
 import './TradingSection.css';
 import TradingCard from '../../Componentes/TradingCard/TradingCard.jsx';
 
+
 function TradingSection() {
   return (
     <>

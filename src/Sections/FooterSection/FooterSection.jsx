@@ -1,6 +1,6 @@
 import './FooterSection.css';
 import Button from '../../Componentes/Button/Button.jsx';
-
+import { alert5 } from '../../Componentes/Alert/Alert.jsx';
 function FooterSection() {
     return (
       <>
@@ -38,7 +38,7 @@ function FooterSection() {
           <div className="footer-end">
             <div className="footer-end-left">
               <input type="email" id="email" placeholder="✉️ Your email here" />
-              <Button text="Request Early Access" onClick={() => {}} variant="primary" />
+              <Button text="Subscribe for more information" onClick={alert5} variant="primary" />
             </div>
             <div className="footer-end-right">
               
