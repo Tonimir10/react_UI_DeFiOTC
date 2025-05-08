@@ -9,7 +9,7 @@
   flex-wrap: nowrap;        
   overflow-x: auto;
 
-  background: transparent;
+  background-image: url('../../assets/backgroundCardRoad.png');
   margin-bottom: 0;
 
 }
