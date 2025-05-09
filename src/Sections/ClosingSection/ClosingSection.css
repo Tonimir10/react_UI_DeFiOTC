@@ -1,6 +1,5 @@
 .closing-section__hero {
   position: relative;
-  height: 40vh;
   width: 100%;
   background-image: url(/src/assets/bg-ClosingBanner.png);
   background-size: cover;
